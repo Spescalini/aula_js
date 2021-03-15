@@ -1,6 +1,75 @@
-var frutas = [{nome: "Maçã", cor: "Vermelho", price: "R$ 6,99", unidade: "KG"}, {nome: "Uva", cor: "Roxa", price: "R$ 12,99", unidade: "KG"}]
+function seleciona(element){
+    console.log(element.value);
+}
+
+function cli (){
+    document.getElementById("agradecimento").innerHTML = "Obrigado por clicar!";
+}
+
+function redirecionar (){
+    window.open("https://tecmundo.com.br");
+    window.location
+}
+
+function mouseover(botn){
+    botn.innerHTML = "Obrigado por passaar o mouse";
+}
+
+function voltar(botn){
+    botn.innerHTML = "Passe o mouse";
+}
+
+function load(){
+    alert("Página Carregada");
+}
+/*function soma (n1,n2){
+    return n1 + n2;
+}
+
+function validaidade (idade){
+   if (idade >= 18){
+       validar = true
+   }else {
+       validar = false
+   }
+
+   return validar;
+}
+
+var idade = prompt("Qual a sua idade?");
+console.log (validaidade(idade));*/
+
+
+
+/*var d = new Date();
+console.log ("Ano: "+ d.getUTCFullYear());
+console.log ("Mês: " + d.getMonth());
+console.log ("Dia" + d.getDay());
+console.log ("Hora: " + d.getHours() + ":" + d.getMinutes() + ":" + d.getSeconds());*/
+
+
+/*var count;
+for(count=0; count <=5; count++){
+    alert(count);
+}*/
+
+/*var count = 0;
+while(cont < 5){
+    console.log(count);
+    alert(count);
+    count = count++
+}*/
+
+/*var idade = prompt("Qual é a sua idade?");
+if (idade >= 18){
+    alert ("Maior de Idade");
+}else{
+    alert ("Menor de Idade");
+}*/
+
+/*var frutas = [{nome: "Maçã", cor: "Vermelho", price: "R$ 6,99", unidade: "KG"}, {nome: "Uva", cor: "Roxa", price: "R$ 12,99", unidade: "KG"}]
 console.log(frutas);
-alert(frutas[0].price);
+alert(frutas[0].price);*/
 
 /*var fruta = {nome: "Maçã", cor: "Vermelho", price: "R$ 6,99", unidade: "KG"};
 console.log(fruta);
